@@ -1,4 +1,4 @@
-var aiports = [
+var airports = [
   {
     "State": "AL",
     "City": "Birmingham",
