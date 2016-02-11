@@ -25,6 +25,12 @@ exports.up = function(knex, Promise) {
     })
   })
   .then(function(){
+    return knex.schema.createTable('vendors', function(table){
+      table.increments();
+      table.string('name');
+    })
+  })
+  .then(function(){
     return knex.schema.createTable('flights', function(table){
       table.increments();
       table.integer('user_id').references('id').inTable('users');
@@ -32,7 +38,7 @@ exports.up = function(knex, Promise) {
       table.date('purchase_date');
       table.integer('flight_number');
       table.float('price_paid');
-      table.text('purchase_location');
+      table.integer('purchase_location').references('id').inTable('vendors');
       table.integer('departure_airport_id').references('id').inTable('airports');
       table.integer('arrival_airport_id').references('id').inTable('airports');
       table.integer('airline_id').references('id').inTable('airlines');
@@ -45,6 +51,9 @@ exports.down = function(knex, Promise) {
   return knex.schema.dropTableIfExists('flights')
   .then(function(){
     return knex.schema.dropTableIfExists('users')
+  })
+  .then(function(){
+    return knex.schema.dropTableIfExists('vendors')
   })
   .then(function(){
     return knex.schema.dropTableIfExists('airports')
