@@ -2,7 +2,7 @@ var airlines = require('../airlines');
 var promiseArray = [];
 
 exports.seed = function(knex, Promise) {
-  if(true){
+  if(false){
     return knex('airlines').del().then(function(){
       var idCount = 1;
       airlines.forEach(function(airline){

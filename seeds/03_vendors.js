@@ -2,7 +2,7 @@ var vendors = require("../vendors");
 var promiseArray = [];
 
 exports.seed = function(knex, Promise){
-  if(true){
+  if(false){
     return knex('vendors').del().then(function(){
       var idCount = 1;
       vendors.forEach(function(vendor){
