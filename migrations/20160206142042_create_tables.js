@@ -38,7 +38,7 @@ exports.up = function(knex, Promise) {
       table.date('purchase_date');
       table.integer('flight_number');
       table.float('price_paid');
-      table.integer('purchase_location').references('id').inTable('vendors');
+      table.string('purchase_location').references('id').inTable('vendors');
       table.integer('departure_airport_id').references('id').inTable('airports');
       table.integer('arrival_airport_id').references('id').inTable('airports');
       table.integer('airline_id').references('id').inTable('airlines');
