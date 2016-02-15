@@ -15,6 +15,7 @@ exports.seed = function(knex, Promise){
           purchase_location:flight.purchase_location,
           departure_airport_id:flight.departure_airport_id,
           arrival_airport_id:flight.arrival_airport_id,
+          airline_id:flight.airline_id,
           suspect:flight.suspect
         }));
         idCount++;
