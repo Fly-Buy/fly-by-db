@@ -8,6 +8,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":1,
     "arrival_airport_id":17,
+    "airline_id": 1,
     "suspect":0
   },
   {
@@ -19,6 +20,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":2,
     "arrival_airport_id":67,
+    "airline_id": 1,
     "suspect":0
   },
   {
@@ -30,6 +32,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":3,
     "arrival_airport_id":68,
+    "airline_id": 1,
     "suspect":0
   },
   {
@@ -41,6 +44,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":4,
     "arrival_airport_id":69,
+    "airline_id": 1,
     "suspect":0
   },
   {
@@ -52,6 +56,7 @@ var flights = [
     "purchase_location":5,
     "departure_airport_id":5,
     "arrival_airport_id":70,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -63,6 +68,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":6,
     "arrival_airport_id":71,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -74,6 +80,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":7,
     "arrival_airport_id":72,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -85,6 +92,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":8,
     "arrival_airport_id":73,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -96,6 +104,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":9,
     "arrival_airport_id":74,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -107,6 +116,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":10,
     "arrival_airport_id":75,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -118,6 +128,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":11,
     "arrival_airport_id":76,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -129,6 +140,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":12,
     "arrival_airport_id":77,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -140,6 +152,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":13,
     "arrival_airport_id":78,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -151,6 +164,7 @@ var flights = [
     "purchase_location":5,
     "departure_airport_id":14,
     "arrival_airport_id":79,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -162,6 +176,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":15,
     "arrival_airport_id":80,
+    "airline_id": 2,
     "suspect":1
   },
   {
@@ -173,6 +188,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":16,
     "arrival_airport_id":81,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -184,6 +200,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":17,
     "arrival_airport_id":82,
+    "airline_id": 2,
     "suspect":1
   },
   {
@@ -195,6 +212,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":18,
     "arrival_airport_id":83,
+    "airline_id": 2,
     "suspect":1
   },
   {
@@ -206,6 +224,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":19,
     "arrival_airport_id":84,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -217,6 +236,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":20,
     "arrival_airport_id":85,
+    "airline_id": 2,
     "suspect":1
   },
   {
@@ -228,6 +248,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":21,
     "arrival_airport_id":86,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -239,6 +260,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":22,
     "arrival_airport_id":87,
+    "airline_id": 2,
     "suspect":0
   },
   {
@@ -250,6 +272,7 @@ var flights = [
     "purchase_location":5,
     "departure_airport_id":23,
     "arrival_airport_id":88,
+    "airline_id": 3,
     "suspect":0
   },
   {
@@ -261,6 +284,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":24,
     "arrival_airport_id":89,
+    "airline_id": 3,
     "suspect":0
   },
   {
@@ -272,6 +296,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":25,
     "arrival_airport_id":90,
+    "airline_id": 3,
     "suspect":0
   },
   {
@@ -283,6 +308,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":26,
     "arrival_airport_id":91,
+    "airline_id": 3,
     "suspect":0
   },
   {
@@ -294,6 +320,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":27,
     "arrival_airport_id":92,
+    "airline_id": 3,
     "suspect":0
   },
   {
@@ -305,6 +332,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":28,
     "arrival_airport_id":93,
+    "airline_id": 4,
     "suspect":0
   },
   {
@@ -316,6 +344,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":29,
     "arrival_airport_id":94,
+    "airline_id": 4,
     "suspect":0
   },
   {
@@ -327,6 +356,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":30,
     "arrival_airport_id":95,
+    "airline_id": 4,
     "suspect":0
   },
   {
@@ -338,6 +368,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":31,
     "arrival_airport_id":96,
+    "airline_id": 4,
     "suspect":0
   },
   {
@@ -349,6 +380,7 @@ var flights = [
     "purchase_location":5,
     "departure_airport_id":32,
     "arrival_airport_id":97,
+    "airline_id": 4,
     "suspect":0
   },
   {
@@ -360,6 +392,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":33,
     "arrival_airport_id":98,
+    "airline_id": 5,
     "suspect":0
   },
   {
@@ -371,6 +404,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":34,
     "arrival_airport_id":99,
+    "airline_id": 5,
     "suspect":0
   },
   {
@@ -382,6 +416,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":35,
     "arrival_airport_id":100,
+    "airline_id": 5,
     "suspect":0
   },
   {
@@ -393,6 +428,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":36,
     "arrival_airport_id":101,
+    "airline_id": 5,
     "suspect":0
   },
   {
@@ -404,6 +440,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":37,
     "arrival_airport_id":102,
+    "airline_id": 5,
     "suspect":0
   },
   {
@@ -415,6 +452,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":38,
     "arrival_airport_id":103,
+    "airline_id": 5,
     "suspect":0
   },
   {
@@ -426,6 +464,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":39,
     "arrival_airport_id":104,
+    "airline_id": 5,
     "suspect":0
   },
   {
@@ -437,6 +476,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":40,
     "arrival_airport_id":105,
+    "airline_id": 6,
     "suspect":0
   },
   {
@@ -448,6 +488,7 @@ var flights = [
     "purchase_location":5,
     "departure_airport_id":41,
     "arrival_airport_id":106,
+    "airline_id": 6,
     "suspect":1
   },
   {
@@ -459,6 +500,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":42,
     "arrival_airport_id":107,
+    "airline_id": 6,
     "suspect":0
   },
   {
@@ -470,6 +512,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":43,
     "arrival_airport_id":108,
+    "airline_id": 6,
     "suspect":1
   },
   {
@@ -481,6 +524,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":44,
     "arrival_airport_id":109,
+    "airline_id": 7,
     "suspect":1
   },
   {
@@ -492,6 +536,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":45,
     "arrival_airport_id":110,
+    "airline_id": 7,
     "suspect":0
   },
   {
@@ -503,6 +548,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":46,
     "arrival_airport_id":111,
+    "airline_id": 7,
     "suspect":1
   },
   {
@@ -514,6 +560,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":47,
     "arrival_airport_id":112,
+    "airline_id": 7,
     "suspect":0
   },
   {
@@ -525,6 +572,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":48,
     "arrival_airport_id":113,
+    "airline_id": 8,
     "suspect":0
   },
   {
@@ -536,6 +584,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":49,
     "arrival_airport_id":114,
+    "airline_id": 8,
     "suspect":0
   },
   {
@@ -547,6 +596,7 @@ var flights = [
     "purchase_location":5,
     "departure_airport_id":50,
     "arrival_airport_id":115,
+    "airline_id": 9,
     "suspect":0
   },
   {
@@ -558,6 +608,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":51,
     "arrival_airport_id":116,
+    "airline_id": 9,
     "suspect":0
   },
   {
@@ -569,6 +620,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":52,
     "arrival_airport_id":117,
+    "airline_id": 9,
     "suspect":0
   },
   {
@@ -580,6 +632,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":53,
     "arrival_airport_id":118,
+    "airline_id": 9,
     "suspect":0
   },
   {
@@ -591,6 +644,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":54,
     "arrival_airport_id":119,
+    "airline_id": 9,
     "suspect":0
   },
   {
@@ -602,6 +656,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":55,
     "arrival_airport_id":120,
+    "airline_id": 9,
     "suspect":0
   },
   {
@@ -613,6 +668,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":56,
     "arrival_airport_id":121,
+    "airline_id": 10,
     "suspect":0
   },
   {
@@ -624,6 +680,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":57,
     "arrival_airport_id":122,
+    "airline_id":11,
     "suspect":0
   },
   {
@@ -635,6 +692,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":58,
     "arrival_airport_id":123,
+    "airline_id":11,
     "suspect":0
   },
   {
@@ -646,6 +704,7 @@ var flights = [
     "purchase_location":5,
     "departure_airport_id":59,
     "arrival_airport_id":124,
+    "airline_id":11,
     "suspect":1
   },
   {
@@ -657,6 +716,7 @@ var flights = [
     "purchase_location":4,
     "departure_airport_id":60,
     "arrival_airport_id":125,
+    "airline_id":11,
     "suspect":1
   },
   {
@@ -668,6 +728,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":61,
     "arrival_airport_id":126,
+    "airline_id":12,
     "suspect":0
   },
   {
@@ -679,6 +740,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":62,
     "arrival_airport_id":127,
+    "airline_id":12,
     "suspect":0
   },
   {
@@ -690,6 +752,7 @@ var flights = [
     "purchase_location":1,
     "departure_airport_id":63,
     "arrival_airport_id":128,
+    "airline_id":12,
     "suspect":0
   },
   {
@@ -701,6 +764,7 @@ var flights = [
     "purchase_location":2,
     "departure_airport_id":64,
     "arrival_airport_id":129,
+    "airline_id":12,
     "suspect":0
   },
   {
@@ -712,6 +776,7 @@ var flights = [
     "purchase_location":3,
     "departure_airport_id":65,
     "arrival_airport_id":130,
+    "airline_id":12,
     "suspect":0
   }
 ]
