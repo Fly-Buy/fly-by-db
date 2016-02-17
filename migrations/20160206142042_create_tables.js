@@ -22,6 +22,16 @@ exports.up = function(knex, Promise) {
       table.string('last_name');
       table.string('email');
       table.string('oauthid');
+      table.string('user_image');
+      table.string('provider');
+      table.integer('times_visited');
+    })
+  })
+  .then(function(){
+    return knex.schema.createTableIfNotExists('session', function (table) {
+      table.string('sid').notNullable().primary(),
+      table.json('sess').notNullable(),
+      table.timestamp('expire', true).notNullable()
     })
   })
   .then(function(){
@@ -38,7 +48,7 @@ exports.up = function(knex, Promise) {
       table.date('purchase_date');
       table.integer('flight_number');
       table.float('price_paid');
-      table.string('purchase_location').references('id').inTable('vendors');
+      table.string('purchase_location');
       table.integer('departure_airport_id').references('id').inTable('airports');
       table.integer('arrival_airport_id').references('id').inTable('airports');
       table.integer('airline_id').references('id').inTable('airlines');
@@ -60,5 +70,8 @@ exports.down = function(knex, Promise) {
   })
   .then(function(){
     return knex.schema.dropTableIfExists('airlines')
+  })
+  .then(function(){
+    return knex.schema.dropTableIfExists('session')
   })
 };
